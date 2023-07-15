@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800;900&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-nunito: Nunito;
+  --font-raleway: Raleway;
+
+  /* font sizes */
+  --font-size-13xl: 32px;
+  --font-size-37xl: 56px;
+  --font-size-45xl: 64px;
+  --font-size-base: 16px;
+  --font-size-5xl: 24px;
+  --font-size-3xs: 10px;
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-dodgerblue: #0096ff;
+  --color-mediumseagreen: #47ba68;
+  --color-salmon: #f77171;
+  --color-silver: #bebebe;
+  --color-darkslategray: #3c4852;
+  --color-tomato: #de4313;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-45xl: 64px;
+  --gap-base: 16px;
+  --gap-xs: 12px;
+  --gap-9xs: 4px;
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-3xs: 10px;
+  --padding-5xl: 24px;
+  --padding-23xl: 42px;
+  --padding-base: 16px;
+
+  /* border radiuses */
+  --br-5xs: 8px;
+  --br-9xs: 4px;
+  --br-981xl: 1000px;
+}
